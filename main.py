@@ -32,6 +32,12 @@ def Ausgabe(amount_bar1, amount_bar2, amount_bar3):
     else:
         print("Alle Bars haben gleich viel verkauft!")
     
-price_bar1, revenue_bar1, price_bar2, revenue_bar2, price_bar3, revenue_bar3 = Eingabe()
-amount_bar1, amount_bar2, amount_bar3 = Verkaufte_Menge(price_bar1, revenue_bar1, price_bar2, revenue_bar2, price_bar3, revenue_bar3)
-Ausgabe(amount_bar1, amount_bar2, amount_bar3)
+#price_bar1, revenue_bar1, price_bar2, revenue_bar2, price_bar3, revenue_bar3 = Eingabe()
+#amount_bar1, amount_bar2, amount_bar3 = Verkaufte_Menge(price_bar1, revenue_bar1, price_bar2, revenue_bar2, price_bar3, revenue_bar3)
+#Ausgabe(amount_bar1, amount_bar2, amount_bar3)
+
+
+if __name__ == "__main__":
+    p1, p2, p3, r1, r2, r3 = Eingabe()
+    m1, m2, m3 = Verkaufte_Menge(p1, p2, p3, r1, r2, r3)
+    Ausgabe(m1, m2, m3)
