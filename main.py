@@ -7,6 +7,9 @@ def Eingabe(): #Eingeben von Preisen und Umsatz pro Bar
     revenue_bar2 = float(input("Einnahmen Bar 2 in €: "))   
     price_bar3 = float(input("Preis Bar 3 in €: "))
     revenue_bar3 = float(input("Einnahmen Bar 3 in €: "))
+    if price_bar1 == 0 or price_bar2 == 0 or price_bar3 == 0
+        print(FEHLER, der Preis bei einer der Bars ist 0, das darf nicht sein)
+        exit()
     return price_bar1, price_bar2, price_bar3, revenue_bar1, revenue_bar2, revenue_bar3
 
 def Verkaufte_Menge(price_bar1, price_bar2, price_bar3, revenue_bar1, revenue_bar2, revenue_bar3): #Ermittlung wie viel welche Bar verkauft hat
