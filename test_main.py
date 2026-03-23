@@ -1,3 +1,4 @@
+import pytest
 from main import Verkaufte_Menge, Ausgabe
 
 # Testet die Berechnung: Einnahmen / Preis = Menge
