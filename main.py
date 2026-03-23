@@ -11,7 +11,7 @@ def Eingabe(): #Eingeben von Preisen und Umsatz pro Bar
 
 def Verkaufte_Menge(price_bar1, price_bar2, price_bar3, revenue_bar1, revenue_bar2, revenue_bar3): #Ermittlung wie viel welche Bar verkauft hat
     amount_bar1 = revenue_bar1/price_bar1
-         amount_bar2 = revenue_bar2/price_bar2
+    amount_bar2 = revenue_bar2/price_bar2
     amount_bar3 = revenue_bar3/price_bar3   
     return amount_bar1, amount_bar2, amount_bar3
 
