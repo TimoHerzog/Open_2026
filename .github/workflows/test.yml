@@ -24,7 +24,12 @@ jobs:
         python-version: 3.12
 
     - name: Install dependencies
-      run: pip install pytest
+      run: pip install pytest ruff
+
+    - name: Test ruff
+      run: ruff check --fix .
 
     - name: Test with pytest
       run: pytest
+    
+  
