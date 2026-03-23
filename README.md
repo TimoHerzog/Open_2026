@@ -1,6 +1,6 @@
 # Open_2026
 
-Ziel des Programms ist es zu ermitteln welche Bar die meisten Getränke verkauft hat. Dafür werden die Gesamteinnahmen pro Bar durch den Preis für das Getränk gerechnet. Anschließend wird dieser Wert verglichen zwischen den einzelnen Bars und ausgegeben welche Bar/Bars am meisten verkauft haben.
+Ziel des Programms ist es zu ermitteln welche Bar die meisten Getränke verkauft hat. Dafür werden die Gesamteinnahmen pro Bar und den Preis für das Getränk pro Bar eingetragen und die Menge an verkauften Getränken berechnet. Anschließend wird dieser Wert verglichen zwischen den einzelnen Bars und ausgegeben welche Bar/Bars am meisten verkauft haben.
 
 Ich habe eine LLM verwendet um für mein Programm Tests schreiben zu lassen. Bei den Änderungen die ich committet habe ist jeweils angegeben wenn ein Teil davon durch eine LLM geschrieben wurde.
 
